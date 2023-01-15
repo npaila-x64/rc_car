@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "rc_car",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp"
+		}
+	}
+}
