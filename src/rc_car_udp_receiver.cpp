@@ -6,11 +6,14 @@
 #define DEBUG_SERIAL if(DEBUG) Serial
 
 // Written by Nicolás Paila, 2023
+
+// REMINDER 
 // To upload to the ESP866, type 'pio run -t upload -e rc_car_receiver' into the terminal
 
 // TODO
 // - Add a validation function for received packets
 // - Define a struct for recieved data
+// - Add OTA update functionalities
 
 // Car actuator objects and properties
 int wheelDirection = 128; // the wheel direction value goes from 0 to 255, 128 is middle position
